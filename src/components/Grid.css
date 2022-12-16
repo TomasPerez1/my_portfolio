@@ -1,0 +1,11 @@
+.container {
+  width: 400px;
+  height: 350px;
+  border: 2px solid yellowgreen;
+  display: grid;
+}
+
+.box {
+  width: 50%;
+  background-color: rgb(70, 70, 227);
+}

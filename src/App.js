@@ -1,11 +1,9 @@
+import Grid from "./components/Grid";
 
 function App() {
   return (
     <div>
-      <h1>
-        Portfoleoxxx
-
-      </h1>
+      <Grid/>
     </div>
   );
 }
