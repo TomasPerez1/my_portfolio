@@ -1,9 +1,9 @@
-import Grid from "./components/Grid";
+import SideCard from "./components/SideCard/SideCard";
 
 function App() {
   return (
     <div>
-      <Grid/>
+      <SideCard/>
     </div>
   );
 }
