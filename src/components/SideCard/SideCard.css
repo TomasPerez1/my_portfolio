@@ -1,3 +1,7 @@
-.side_card {
-  border: 1px solid black;
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  width: fit-content;
+  align-items: center;
 }

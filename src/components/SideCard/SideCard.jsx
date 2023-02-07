@@ -1,12 +1,19 @@
 import "./SideCard.css"
 import Avatar from '@mui/material/Avatar';
-import "../../assets/profile.jpeg"
+import profile from "../../assets/profile.jpeg"
+import EmailIcon from '@mui/icons-material/Email';
+
 export default function SideCard() {
   return (
-    <div className="side_card">
-      <h1>hola</h1>
-      <Avatar alt="poomas profile" src="./demo.jpeg"/>
-      <img src="./demo.jpeg"/>
+    <div className="container">
+      <Avatar 
+        alt="T" 
+        src={profile} 
+      />
+      <div>
+        <EmailIcon/>
+        tomas@gmail.com
+      </div>
     </div>
   )
-}
+};
