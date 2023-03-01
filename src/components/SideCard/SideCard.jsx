@@ -4,6 +4,7 @@ import profile from "../../assets/profile.jpeg"
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import ContactPageOutlinedIcon from '@mui/icons-material/ContactPageOutlined';
+import CV from "../../assets/Tomas_Perez_CV.pdf"
 
 export default function SideCard() {
   return (
@@ -16,23 +17,33 @@ export default function SideCard() {
           marginBottom: "10px",
           width: "80%",
           height: "80%",
+          border: "0.8px solid black"
         }}
       />
-      <div className="item">
-        <LinkedInIcon
-        />
+      <a 
+        className="item"
+        href="https://www.linkedin.com/in/tomas-perez-developer/"
+        target="_blank"
+      >
+        <LinkedInIcon/>
         <p className="text">Linkedin</p>
-      </div>
-      <div className="item">
-        <GitHubIcon
-        />
+      </a>
+      <a 
+        className="item"
+        href="https://github.com/TomasPerez1"
+        target="_blank"
+      >
+        <GitHubIcon/>
         <p className="text">Git Hub</p>
-      </div>
-      <div className="item">
-        <ContactPageOutlinedIcon
-        />
+      </a>
+      <a 
+        className="item"
+        href={CV}
+        download=""
+      >
+        <ContactPageOutlinedIcon/>
         <p className="text">CV resume</p>
-      </div>
+      </a>
     </div>
   )
 };
