@@ -1,5 +1,6 @@
 .main_container {
-  background-color: red;
-  width: 75%;
-  
+  background-color: cadetblue;
+  width: 81%;
+  height: 297px;
+  overflow-y: scroll;
 }
