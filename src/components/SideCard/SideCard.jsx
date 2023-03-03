@@ -16,7 +16,7 @@ export default function SideCard() {
         sx={{
           marginBottom: "10px",
           width: "80%",
-          height: "80%",
+          height: "40%",
           border: "0.8px solid black"
         }}
       />
@@ -39,7 +39,7 @@ export default function SideCard() {
       <a 
         className="item"
         href={CV}
-        download=""
+        download="CV_Tomas_Perez"
       >
         <ContactPageOutlinedIcon/>
         <p className="text">CV resume</p>

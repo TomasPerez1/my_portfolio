@@ -1,9 +1,12 @@
+import "./App.css"
 import SideCard from "./components/SideCard/SideCard";
+import Main from "./components/Main/Main";
 
 function App() {
   return (
-    <div>
+    <div className="parent">
       <SideCard/>
+      <Main/>
     </div>
   );
 }
