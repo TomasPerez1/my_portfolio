@@ -12,20 +12,24 @@ export default function SideCard() {
       <Avatar 
         alt="T" 
         src={profile}
-        sizes="10 200"
         sx={{
-          marginBottom: "10px",
-          width: "80%",
-          height: "40%",
+          width: "100px",
+          height: "100px",
           border: "0.8px solid black"
         }}
       />
+    <div className="items">
       <a 
         className="item"
         href="https://www.linkedin.com/in/tomas-perez-developer/"
         target="_blank"
       >
-        <LinkedInIcon/>
+        <LinkedInIcon
+          sx={{
+            margin: "0",
+            padding: "0",
+          }}
+        />
         <p className="text">Linkedin</p>
       </a>
       <a 
@@ -33,7 +37,12 @@ export default function SideCard() {
         href="https://github.com/TomasPerez1"
         target="_blank"
       >
-        <GitHubIcon/>
+        <GitHubIcon
+        sx={{
+          margin: "0",
+          paddingBottom: "2px",
+        }}
+        />
         <p className="text">Git Hub</p>
       </a>
       <a 
@@ -41,9 +50,14 @@ export default function SideCard() {
         href={CV}
         download="CV_Tomas_Perez"
       >
-        <ContactPageOutlinedIcon/>
+        <ContactPageOutlinedIcon
+        sx={{
+          paddingBottom: "2px",
+        }}
+        />
         <p className="text">CV resume</p>
       </a>
+    </div>
     </div>
   )
 };
